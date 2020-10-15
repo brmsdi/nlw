@@ -1,5 +1,5 @@
 // CREATE MAP 
-const map = L.map('mapid').setView([-3.0489342,-59.9928554], 16);
+const map = L.map('mapid').setView([-3.0483967,-59.9887959], 16);
 
 //CREATE AND ADD TILELAYER
 L.tileLayer(
@@ -28,6 +28,6 @@ const popup = L.popup({
 
 
 // create and add marker
-L.marker([-3.0489342,-59.9928554], {icon})
+L.marker([-3.0483967,-59.9887959], {icon})
 .addTo(map)
 .bindPopup(popup);
